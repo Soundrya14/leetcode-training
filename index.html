@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yummy Bites</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+    }
+
+    header {
+      background-color: #ff6f61;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #ffb199;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1604908177522-472c69c5b3ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+      font-size: 2rem;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .menu {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .menu h2 {
+      margin-bottom: 30px;
+    }
+
+    .menu-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .item {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .item img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .item h3 {
+      margin: 10px 0 5px;
+    }
+
+    footer {
+      background-color: #ff6f61;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Yummy Bites</h1>
+    <p>Delicious food delivered to your door</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <div>Fresh & Tasty Every Day</div>
+  </div>
+
+  <section class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="item">
+        <img src="https://source.unsplash.com/300x200/?pizza" alt="Pizza">
+        <h3>Margherita Pizza</h3>
+        <p>Classic cheese pizza with fresh basil.</p>
+      </div>
+      <div class="item">
+        <img src="https://source.unsplash.com/300x200/?burger" alt="Burger">
+        <h3>Beef Burger</h3>
+        <p>Juicy beef patty with crispy fries.</p>
+      </div>
+      <div class="item">
+        <img src="https://source.unsplash.com/300x200/?pasta" alt="Pasta">
+        <h3>Spaghetti Carbonara</h3>
+        <p>Creamy pasta with bacon and cheese.</p>
+      </div>
+      <div class="item">
+        <img src="https://source.unsplash.com/300x200/?salad" alt="Salad">
+        <h3>Greek Salad</h3>
+        <p>Fresh veggies with feta and olives.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Yummy Bites. All rights reserved.
+  </footer>
+
+</body>
+</html>
